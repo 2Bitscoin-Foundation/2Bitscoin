@@ -1,0 +1,10 @@
+# Project
+classes/
+logs/
+nxt_db/
+2Bitscoin.jar
+2Bitscoinservice.jar
+
+# Windows
+*.exe
+launch4j.log

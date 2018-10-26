@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\short\Documents\2bitscoin\2Bitscoin.jar</jar>
+  <outfile>C:\Users\short\Documents\2bitscoin\2Bitscoin.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <var>nxt.runtime.mode=desktop</var>
+  <classPath>
+    <mainClass>nxt.Nxt</mainClass>
+    <cp>classes</cp>
+    <cp>lib/*</cp>
+    <cp>conf:addons/classes</cp>
+    <cp>addons/lib/*</cp>
+  </classPath>
+  <jre>
+    <path>C:\Program Files\Java\jdk1.8.0_191</path>
+    <bundledJre64Bit>true</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64</runtimeBits>
+  </jre>
+</launch4jConfig>
